@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(51, 51, 138);
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+#last{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+#keys{
+    border: none;
+    margin-top: 20px;
+}
+#update{
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+span{
+    width: 80px;
+    height: 80px;
+    border: 2px solid white;
+    padding: 4px;
+}
